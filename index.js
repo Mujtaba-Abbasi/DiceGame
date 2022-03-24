@@ -1,11 +1,8 @@
 var randomNumber = Math.ceil(Math.random() * 6);
-console.log(randomNumber);
-
 var randomNumber1 = Math.ceil(Math.random() * 6);
-console.log(randomNumber1);
 
 if (randomNumber === 1) {
-    document.querySelector(".img1").setAttribute("src", "/images/dice1.png");
+    document.querySelector(".img1").setAttribute("src", "images/dice1.png");
 }
 else if (randomNumber === 2) {
     document.querySelector(".img1").setAttribute("src", "images/dice2.png");
